@@ -1,0 +1,1 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg"><defs><polygon id="e" points="240 0 0 0 120 120"/></defs><use href="#e" fill="#666"/><use href="#e" fill="#999" transform="rotate(90 120 120)"/><use href="#e" fill="#666" transform="rotate(180 120 120)"/><use href="#e" fill="#999" transform="rotate(270 120 120)"/></svg>

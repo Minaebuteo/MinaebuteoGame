@@ -1,0 +1,17 @@
+{
+  "levelName": "처음부터",
+  "makerName": "민애부터",
+  "levelSize": 4,
+  "ballData": "wwmmwwmmcckkcckk",
+  "tileData": [
+    "ccwwccwwkkmmkkmm",
+    "ccwwcmkwkwcmkkmm",
+    "wwmmwwmmcckkcckk"
+  ],
+  "colorData": {
+    "w": "#FFF",
+    "m": "#F0F",
+    "k": "#000",
+    "c": "#0FF"
+  }
+}

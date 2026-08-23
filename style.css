@@ -1,0 +1,17 @@
+#gameCanvas {
+  width: 270px;
+  border: thick solid black;
+}
+
+.button {
+  color: #000;
+  background-color: #FFF;
+  border: thin solid #000;
+  border-radius: 4px;
+  margin: 4px;
+}
+.activated-button {
+  color: #0FF;
+  background-color: #F0F;
+  border-color: #0FF;
+}
