@@ -203,7 +203,7 @@ const getAssetObject = (() => {
     const [
       up, right, down, left, symbol, next, quit,
       white, magenta, cyan,
-      barrier, storage,
+      barrier,
       ring
     ] = await ((async assetLinkArray => await Promise.all((assetLinkArray.map(async assetLink => {
       const assetImage = new Image();
@@ -222,13 +222,12 @@ const getAssetObject = (() => {
       'button/magenta.svg',
       'button/cyan.svg',
       'tile/barrier.svg',
-      'tile/storage.svg',
       'player/ring.svg'
     ]));
     assetObject = {
       key: { up, right, down, left, symbol, next, quit },
       button: { white, magenta, cyan },
-      tile: { barrier, storage },
+      tile: { barrier },
       player: { ring }
     };
     if(assetObject.player.ring)
