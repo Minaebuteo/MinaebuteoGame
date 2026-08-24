@@ -35,7 +35,7 @@ function drawTop(timestamp) {
       osCtx.fillText(text, width * (2 * index + 1) / 8, letterbox / 2);
     });
     osCtx.fillStyle = color.topString;
-    osCtx.fillText(`${Math.floor((levelData.playCount.finish ?? timestamp) - (levelData.playCount.departure ?? timestamp))} ms`, width / 2, letterbox * 5 / 6)
+    osCtx.fillText(`${Math.floor((levelData.playCount.finish ?? timestamp) - (levelData.playCount.departure ?? timestamp))} ms`, width / 2, letterbox * 5 / 6);
   }
 }
 

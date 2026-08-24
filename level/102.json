@@ -1,0 +1,20 @@
+{
+  "levelName": "히말라야",
+  "makerName": "민애부터",
+  "levelSize": 4,
+  "ballData": "kwwwwwwwwwwwwwww",
+  "tileData": [
+    "wwwkwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwwk",
+    "wwwwwwwwwwwwkwww",
+    "kwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwkwww",
+    "wwwwwwwwwwwwwwwk",
+    "wwwkwwwwwwwwwwww",
+    "kwwwwwwwwwwwwwww"
+  ],
+  "colorData": {
+    "w": "#FFF",
+    "k": "#000"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "levelName": "뒤집기",
+  "makerName": "민애부터",
+  "levelSize": 6,
+  "ballData": "$$mc$$$wkkw$ckwwkmmkwwkc$wkkw$$$cm$$",
+  "tileData": [
+    "$$mc$$$kwwk$cwkkwmmwkkwc$kwwk$$$cm$$",
+    "$$cm$$$kwwk$mwkkwccwkkwm$kwwk$$$mc$$",
+    "$$cm$$$wkkw$mkwwkcckwwkm$wkkw$$$mc$$"
+  ],
+  "colorData": {
+    "w": "#FFF",
+    "m": "#F0F",
+    "k": "#000",
+    "c": "#0FF"
+  }
+}

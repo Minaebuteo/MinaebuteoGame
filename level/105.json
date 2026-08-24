@@ -1,0 +1,16 @@
+{
+  "levelName": "동네 한 바퀴",
+  "makerName": "민애부터",
+  "levelSize": 6,
+  "ballData": "wwmmmmwwmmmmww$$kkww$$kkcccckkcccckk",
+  "tileData": [
+    "wwwmmmwwwmmmww$$mmcc$$kkccckkkccckkk",
+    "wwwwmmwwwwmmcc$$mmcc$$mmcckkkkcckkkk"
+  ],
+  "colorData": {
+    "w": "#FFF",
+    "m": "#F0F",
+    "k": "#000",
+    "c": "#0FF"
+  }
+}

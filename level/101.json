@@ -1,0 +1,17 @@
+{
+  "levelName": "낮과 밤",
+  "makerName": "민애부터",
+  "levelSize": 4,
+  "ballData": "mwkcwwkkwwkkcwkm",
+  "tileData": [
+    "cwkmwwkkwwkkmwkc",
+    "ckwmkkwwkkwwmkwc",
+    "mkwckkwwkkwwckwm"
+  ],
+  "colorData": {
+    "w": "#FFF",
+    "m": "#F0F",
+    "k": "#000",
+    "c": "#0FF"
+  }
+}

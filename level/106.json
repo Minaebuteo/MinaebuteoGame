@@ -1,0 +1,16 @@
+{
+  "levelName": "부메랑",
+  "makerName": "민애부터",
+  "levelSize": 6,
+  "ballData": "wwwwwwwwwwwwkk$$kkkk$$kkmm$$wwcc$$ww",
+  "tileData": [
+    "wwwwwwwwwwwwkk$$kkkk$$kkww$$wwcc$$mm",
+    "wwwwwwwwwwwwkk$$kkkk$$kkww$$ccww$$mm"
+  ],
+  "colorData": {
+    "w": "#FFF",
+    "m": "#F0F",
+    "k": "#000",
+    "c": "#0FF"
+  }
+}

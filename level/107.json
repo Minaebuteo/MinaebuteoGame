@@ -1,0 +1,18 @@
+{
+  "levelName": "나태지옥",
+  "makerName": "민애부터",
+  "levelSize": 6,
+  "ballData": "wwwwwwwwwwwwwwkkwwwwkkwwwwwwwwwwwwww",
+  "tileData": [
+    "kwwwwkwwwwwwwwwwwwwwwwwwwwwwwwkwwwwk",
+    "wwwwkwkwwwwwwwwwwwwwwwwwwwwwwkwkwwww",
+    "wwwkwwwwwwwwkwwwwwwwwwwkwwwwwwwwkwww",
+    "wwkwwwwwwwwwwwwwwkkwwwwwwwwwwwwwwkww",
+    "wkwwwwwwwwwkwwwwwwwwwwwwkwwwwwwwwwkw",
+    "kwwwwkwwwwwwwwwwwwwwwwwwwwwwwwkwwwwk"
+  ],
+  "colorData": {
+    "w": "#FFF",
+    "k": "#000"
+  }
+}

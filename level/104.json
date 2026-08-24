@@ -1,0 +1,17 @@
+{
+  "levelName": "더하기",
+  "makerName": "민애부터",
+  "levelSize": 4,
+  "ballData": "$kk$ckkmckkm$kk$",
+  "tileData": [
+    "$cc$kkkkkkkk$mm$",
+    "$kk$mkkcmkkc$kk$",
+    "$mm$kkkkkkkk$cc$",
+    "$kk$ckkmckkm$kk$"
+  ],
+  "colorData": {
+    "m": "#F0F",
+    "k": "#000",
+    "c": "#0FF"
+  }
+}

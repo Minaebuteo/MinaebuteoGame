@@ -1,0 +1,16 @@
+{
+  "levelName": "첫 장벽",
+  "makerName": "민애부터",
+  "levelSize": 4,
+  "ballData": "mmk$kwkk$kwc$$kc",
+  "tileData": [
+    "cck$kwkk$kwm$$km",
+    "ccw$kkkw$kkm$$km"
+  ],
+  "colorData": {
+    "w": "#FFF",
+    "m": "#F0F",
+    "k": "#000",
+    "c": "#0FF"
+  }
+}

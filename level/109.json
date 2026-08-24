@@ -1,0 +1,16 @@
+{
+  "levelName": "교차로",
+  "makerName": "민애부터",
+  "levelSize": 6,
+  "ballData": "$$kk$$$$kk$$wkwkwkwkwkwk$$kk$$$$cm$$",
+  "tileData": [
+    "$$ck$$$$kk$$wkwkwkwkwkwk$$kk$$$$km$$",
+    "$$cm$$$$kk$$wkwkwkwkwkwk$$kk$$$$kk$$"
+  ],
+  "colorData": {
+    "w": "#FFF",
+    "m": "#F0F",
+    "k": "#000",
+    "c": "#0FF"
+  }
+}
