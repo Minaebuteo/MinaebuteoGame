@@ -1,17 +1,59 @@
+body {
+  background-color: #000;
+  margin: 16px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  user-select: none;
+}
 #gameCanvas {
   width: 270px;
-  border: thick solid black;
+  border: thick solid #FFF;
+}
+
+#keyboard {
+  background-color: #333;
+  color: #FFF;
+  padding: 4px;
+  border-radius: 8px;
+  margin: 8px;
+  line-height: 1;
+}
+
+#remote {
+  background-color: #333;
+  width: fit-content;
+  padding: 4px;
+  border-radius: 8px;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
 }
 
 .button {
-  color: #000;
-  background-color: #FFF;
-  border: thin solid #000;
+  color: #FFF;
+  background-color: #000;
+  border: thin solid #FFF;
   border-radius: 4px;
   margin: 4px;
+}
+#download:hover {
+  color: #F0F;
+  background-color: #0FF;
+  border-color: #F0F;
+}
+#download:active {
+  color: #0FF;
+  background-color: #F0F;
+  border-color: #0FF;
 }
 .activated-button {
   color: #0FF;
   background-color: #F0F;
   border-color: #0FF;
+}
+
+#channel {
+  color: #F03;
+  text-decoration: none;
 }

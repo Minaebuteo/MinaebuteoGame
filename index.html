@@ -7,9 +7,38 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <table id="keyboard">
+    <tbody>
+      <tr>
+        <td>ⓠ</td>
+        <td></td>
+        <td>ⓦ</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>ⓐ</td>
+        <td>ⓚ</td>
+        <td>ⓓ</td>
+        <td>ⓛ</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>ⓢ</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <canvas id="gameCanvas" width="1080" height="1920"></canvas>
-  <button id="power" class="button">작동 여부</button>
-  <button id="record" class="button">녹화 여부</button>
+  <div id="remote">
+    <button id="power" class="button">ⓘ 작동 여부</button>
+    <button id="record" class="button">ⓞ 녹화 여부</button>
+    <button id="download" class="button">ⓟ 영상 저장</button>
+  </div>
+  <a id="channel" target="_blank" href="https://youtube.com/channel/UC2aDGIQ0vlYCQz2AOtCqkDA?sub_confirmation=1">▶</a>
   <script src="setting.js"></script>
   <script src="key.js"></script>
   <script src="draw.js"></script>

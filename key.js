@@ -26,13 +26,23 @@ addEventListener('keydown', eventObject => {
         if(doingLevel)
           quit();
         break;
+      case 'KeyI':
+        powerButton.click();
+        break;
+      case 'KeyO':
+        recordButton.click();
+        break;
+      case 'KeyP':
+        downloadButton.click();
+        break;
     }
   }
 });
 addEventListener('keyup', eventObject => {
   if(key[eventObject.code]) {
     key[eventObject.code].isKeydowned.now = false;
-    key[eventObject.code].departure = performance.now();
+    if(key[eventObject.code].isDrawn)
+      key[eventObject.code].departure = performance.now();
   }
 });
 
@@ -88,6 +98,7 @@ function next() {
   }
   if(levelData.shape.now + 1 === levelData.tileData.length) {
     levelData.playCount.finish = performance.now();
+    drawAll.top = true;
     return;
   }
   levelData.shape.now++;

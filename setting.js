@@ -46,6 +46,7 @@ let animationID = null; // number type null
 // external tool
 let isPowered = false;
 let isRecorded = false;
+let videoName = null; // string type null
 
 // useful data
 let levelData = null; // object type null
@@ -90,6 +91,7 @@ const menuButton = [
 }));
 const key = {
   'KeyW': {
+    isDrawn: true,
     assetName: 'up',
     middle: { x: 540, y: 70 },
     size: { x: 160, y: 80 },
@@ -97,6 +99,7 @@ const key = {
     departure: -animationSpeed
   },
   'KeyD': {
+    isDrawn: true,
     assetName: 'right',
     middle: { x: 680, y: 210 },
     size: { x: 80, y: 160 },
@@ -104,6 +107,7 @@ const key = {
     departure: -animationSpeed
   },
   'KeyS': {
+    isDrawn: true,
     assetName: 'down',
     middle: { x: 540, y: 350 },
     size: { x: 160, y: 80 },
@@ -111,6 +115,7 @@ const key = {
     departure: -animationSpeed
   },
   'KeyA': {
+    isDrawn: true,
     assetName: 'left',
     middle: { x: 400, y: 210 },
     size: { x: 80, y: 160 },
@@ -118,6 +123,7 @@ const key = {
     departure: -animationSpeed
   },
   'KeyK': {
+    isDrawn: true,
     assetName: 'symbol',
     middle: { x: 540, y: 210 },
     size: { x: 160, y: 160 },
@@ -125,6 +131,7 @@ const key = {
     departure: -animationSpeed
   },
   'KeyL': {
+    isDrawn: true,
     assetName: 'next',
     middle: { x: 900, y: 210 },
     size: { x: 160, y: 160 },
@@ -132,17 +139,31 @@ const key = {
     departure: -animationSpeed
   },
   'KeyQ': {
+    isDrawn: true,
     assetName: 'quit',
     middle: { x: 80, y: 80 },
     size: { x: 80, y: 80 },
     isKeydowned: { before: false, now: false },
     departure: -animationSpeed
+  },
+  'KeyI': {
+    isDrawn: false,
+    isKeydowned: { now: false }
+  },
+  'KeyO': {
+    isDrawn: false,
+    isKeydowned: { now: false }
+  },
+  'KeyP': {
+    isDrawn: false,
+    isKeydowned: { now: false }
   }
 };
 
 // external tool button
 const powerButton = document.getElementById('power');
 const recordButton = document.getElementById('record');
+const downloadButton = document.getElementById('download');
 
 // canvas data
 const canvas = document.getElementById('gameCanvas');
@@ -163,19 +184,9 @@ const chunks = []; // variable array
 
 // video function
 recorder.ondataavailable = eventObject => chunks.push(eventObject.data);
-recorder.onstop = () => {
-  const blob = new Blob(chunks, { type: 'video/webm' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = `MABT-${new Date().toISOString()}.webm`;
-  a.click();
-  URL.revokeObjectURL(url);
-  chunks.length = 0;
-};
 
 // external tool function
-document.getElementById('power').addEventListener('click', () => {
+powerButton.addEventListener('click', () => {
   isPowered = !isPowered;
   if(isPowered) {
     animationID = requestAnimationFrame(main);
@@ -185,15 +196,28 @@ document.getElementById('power').addEventListener('click', () => {
     powerButton.classList.remove('activated-button');
   }
 });
-document.getElementById('record').addEventListener('click', () => {
+recordButton.addEventListener('click', () => {
   isRecorded = !isRecorded;
   if(isRecorded) {
+    chunks.length = 0;
+    videoName = `MABT-${new Date().toISOString()}.webm`;
     recorder.start();
     recordButton.classList.add('activated-button');
   } else {
     recorder.stop();
     recordButton.classList.remove('activated-button');
   }
+});
+downloadButton.addEventListener('click', () => {
+  if(isRecorded || chunks.length === 0)
+    return;
+  const blob = new Blob(chunks, { type: 'video/webm' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = videoName;
+  a.click();
+  URL.revokeObjectURL(url);
 });
 
 // get data function
@@ -230,8 +254,10 @@ const getAssetObject = (() => {
       tile: { barrier },
       player: { ring }
     };
-    if(assetObject.player.ring)
+    if(assetObject.player.ring) {
       isAssetLoaded = true;
+      powerButton.click();
+    }
   })();
   return () => assetObject; // You probably can't see null
 })();

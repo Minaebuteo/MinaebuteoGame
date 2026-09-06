@@ -16,7 +16,7 @@ function drawTop(timestamp) {
   }
 
   // real time data
-  if(playingLevel && levelData.playCount.finish === null) {
+  if(playingLevel && (levelData.playCount.finish === null || drawAll.top)) {
     osCtx.font = 'bold 90px sans-serif';
     if(needName) {
       osCtx.fillStyle = color.topString;
@@ -35,7 +35,7 @@ function drawTop(timestamp) {
       osCtx.fillText(text, width * (2 * index + 1) / 8, letterbox / 2);
     });
     osCtx.fillStyle = color.topString;
-    osCtx.fillText(`${Math.floor((levelData.playCount.finish ?? timestamp) - (levelData.playCount.departure ?? timestamp))} ms`, width / 2, letterbox * 5 / 6);
+    osCtx.fillText(`${Math.floor((levelData.playCount.finish ?? timestamp) - (levelData.playCount.departure ?? timestamp))} ms`, width / 2, letterbox * 5 / 6)
   }
 }
 
@@ -171,7 +171,7 @@ function drawBottom(timestamp) {
 
   // key
   for(const code in key) {
-    if((key[code].isKeydowned.before && key[code].isKeydowned.now || key[code].departure === null && (key[code].isKeydowned.before || !key[code].isKeydowned.now)) && !drawAll.bottom)
+    if(!key[code].isDrawn || (key[code].isKeydowned.before && key[code].isKeydowned.now || key[code].departure === null && (key[code].isKeydowned.before || !key[code].isKeydowned.now)) && !drawAll.bottom)
       continue; // AI might be able to understand it
     key[code].isKeydowned.before = key[code].isKeydowned.now;
     const shrinkSize = key[code].isKeydowned.now ? bottomKeyShrink : 1 - (1 - bottomKeyShrink) * (Math.min((timestamp - (key[code].departure ?? timestamp)) / animationSpeed, 1) - 1) ** 2;
