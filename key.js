@@ -3,7 +3,7 @@ addEventListener('keydown', eventObject => {
     key[eventObject.code].isKeydowned.now = true;
     const doingLevel = player.address >= levelAdressStartPoint;
     const playingLevel = doingLevel && levelData !== null;
-    if(doingLevel && levelData !== null && levelData.playCount.departure === null)
+    if(doingLevel && key[eventObject.code].isDrawn && levelData !== null && levelData.playCount.departure === null)
       levelData.playCount.departure = performance.now();
     switch(eventObject.code) {
       case 'KeyW':
