@@ -254,10 +254,8 @@ const getAssetObject = (() => {
       tile: { barrier },
       player: { ring }
     };
-    if(assetObject.player.ring) {
+    if(assetObject.player.ring)
       isAssetLoaded = true;
-      powerButton.click();
-    }
   })();
   return () => assetObject; // You probably can't see null
 })();
