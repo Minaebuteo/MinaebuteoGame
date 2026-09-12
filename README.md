@@ -1,2 +1,2 @@
 # MinaebuteoGame
-FUN
+https://minaebuteo.github.io/MinaebuteoGame
