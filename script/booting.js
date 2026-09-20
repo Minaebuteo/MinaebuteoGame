@@ -3,8 +3,10 @@ function booting(delay) {
     return;
   if(isAssetLoaded)
     powerButton.click();
-  delay += delayConstant;
-  setTimeout(booting, delay, delay);
+  else {
+    delay += delayConstant;
+    setTimeout(booting, delay, delay);
+  }
 }
 
 booting(0);
