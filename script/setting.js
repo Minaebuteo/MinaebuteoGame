@@ -279,3 +279,5 @@ function getOfficialLevelData(levelAddress) {
     }).catch(() => {});
   }
 }
+
+const delayConstant = 100;
