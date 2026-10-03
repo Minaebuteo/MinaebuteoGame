@@ -1,0 +1,17 @@
+{
+  "levelName": "유체역학",
+  "makerName": "민애부터",
+  "levelSize": 6,
+  "ballData": "cckkmmcckkmm$$$$$$mkkkkcmkkkkcmkkkkc",
+  "tileData": [
+    "kcmcmkkcmcmk$$$$$$mkkkkcckkkkmmkkkkc",
+    "kmmcckkmmcck$$$$$$kkmckkkkcmkkkkmckk",
+    "mmkkccmmkkcc$$$$$$kkmckkkkmckkkkmckk",
+    "mmkkccmmkkcc$$$$$$mkkkkcmkkkkcmkkkkc"
+  ],
+  "colorData": {
+    "m": "#F0F",
+    "k": "#000",
+    "c": "#0FF"
+  }
+}

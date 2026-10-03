@@ -1,0 +1,17 @@
+{
+  "levelName": "역행렬",
+  "makerName": "민애부터",
+  "levelSize": 4,
+  "ballData": "kkmmkkmmcckkcckk",
+  "tileData": [
+    "kmkmckmkkckmckck",
+    "kckcmkckkmkcmkmk",
+    "kkcckkccmmkkmmkk"
+  ],
+  "colorData": {
+    "w": "#FFF",
+    "m": "#F0F",
+    "k": "#000",
+    "c": "#0FF"
+  }
+}

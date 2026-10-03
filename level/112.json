@@ -1,0 +1,15 @@
+{
+  "levelName": "바람개비",
+  "makerName": "민애부터",
+  "levelSize": 4,
+  "ballData": "$ww$wkkwwkkw$ww$",
+  "tileData": [
+    "$kw$wwwkkwww$wk$",
+    "$wk$kwwwwwwk$kw$",
+    "$ww$wkkwwkkw$ww$"
+  ],
+  "colorData": {
+    "w": "#FFF",
+    "k": "#000"
+  }
+}

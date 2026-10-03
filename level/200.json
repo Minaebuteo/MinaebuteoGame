@@ -1,0 +1,18 @@
+{
+  "levelName": "환상",
+  "makerName": "민애부터",
+  "levelSize": 8,
+  "ballData": "$$wwmm$$$wwwmmm$wwwwmmmmwwwwmmmmcccckkkkcccckkkk$ccckkk$$$cckk$$",
+  "tileData": [
+    "$$wwmm$$$kwwmmc$wwwwmmmmwwwwmmmmcccckkkkcccckkkk$mcckkw$$$cckk$$",
+    "$$kwmc$$$kwwmmc$kwwwmmmcwwwwmmmmcccckkkkmccckkkw$mcckkw$$$mckw$$",
+    "$$kkcc$$$kwwmmc$kwwwmmmckwwwmmmcmccckkkwmccckkkw$mcckkw$$$mmww$$",
+    "$$kkcc$$$kwwmmc$kwkwmcmckwwkcmmcmccmwkkwmcmckwkw$mcckkw$$$mmww$$"
+  ],
+  "colorData": {
+    "w": "#FFF",
+    "m": "#F0F",
+    "k": "#000",
+    "c": "#0FF"
+  }
+}

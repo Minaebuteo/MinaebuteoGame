@@ -1,0 +1,17 @@
+{
+  "levelName": "무지개떡",
+  "makerName": "민애부터",
+  "levelSize": 4,
+  "ballData": "wwwwmmmmcccckkkk",
+  "tileData": [
+    "wmmwwmmwkcckkcck",
+    "wwmmwwmmcckkcckk",
+    "kwmcwwmmcckkmckw"
+  ],
+  "colorData": {
+    "w": "#FFF",
+    "m": "#F0F",
+    "k": "#000",
+    "c": "#0FF"
+  }
+}

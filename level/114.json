@@ -1,0 +1,18 @@
+{
+  "levelName": "탈각",
+  "makerName": "민애부터",
+  "levelSize": 4,
+  "ballData": "www$www$wwwm$$ck",
+  "tileData": [
+    "www$wkw$wwwm$$cw",
+    "wwm$wkw$cwww$$ww",
+    "wwc$wkw$mwww$$ww",
+    "wwc$www$mwww$$wk"
+  ],
+  "colorData": {
+    "w": "#FFF",
+    "m": "#F0F",
+    "k": "#000",
+    "c": "#0FF"
+  }
+}

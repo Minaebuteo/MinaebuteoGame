@@ -1,0 +1,22 @@
+{
+  "levelName": "노브",
+  "makerName": "민애부터",
+  "levelSize": 6,
+  "ballData": "$$kw$$wcwkmkcw$$km$$mc$$ckcmwmkc$$mw",
+  "tileData": [
+    "$$wk$$cwkwkmwc$$mk$$cm$$kcmcmwck$$wm",
+    "$$kw$$wcwkmkcw$$km$$cm$$kcmcmwck$$wm",
+    "$$kw$$wcwkmkcw$$km$$mc$$ckcmwmkc$$mw",
+    "$$kw$$cwwkkmwc$$mk$$cm$$ckmcwmkc$$mw",
+    "$$wk$$cwkwkmwc$$mk$$cm$$kcmcmwck$$wm",
+    "$$wk$$wckwkmcw$$mk$$cm$$ckmcmwkc$$wm",
+    "$$wk$$wckwmkcw$$km$$cm$$ckmcwmkc$$mw",
+    "$$kw$$wcwkmkcw$$km$$mc$$ckcmwmkc$$mw"
+  ],
+  "colorData": {
+    "w": "#FFF",
+    "m": "#F0F",
+    "k": "#000",
+    "c": "#0FF"
+  }
+}

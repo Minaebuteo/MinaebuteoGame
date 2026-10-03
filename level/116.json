@@ -1,0 +1,21 @@
+{
+  "levelName": "캔턴기",
+  "makerName": "민애부터",
+  "levelSize": 6,
+  "ballData": "kkk$mmkwk$mmkkk$kk$$$$kkcckkkkcckkkk",
+  "tileData": [
+    "wkk$kkkkk$mmkkk$mm$$$$kkkcckkkkcckkk",
+    "kkw$kkkkk$kkkkk$mm$$$$mmkcckkkkcckkk",
+    "kkk$kkkkk$kkwkk$mm$$$$mmkkcckkkkcckk",
+    "kkk$kkkkk$kkkkw$cc$$$$cckkmmkkkkmmkk",
+    "kkw$kkkkk$cckkk$cc$$$$kkkkmmkkkkmmkk",
+    "kkk$kkkkk$ccwkk$cc$$$$kkkmmkkkkmmkkk",
+    "wkk$cckkk$cckkk$kk$$$$kkmmkkkkmmkkkk"
+  ],
+  "colorData": {
+    "w": "#FFF",
+    "m": "#F0F",
+    "k": "#000",
+    "c": "#0FF"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "levelName": "도넛",
+  "makerName": "민애부터",
+  "levelSize": 6,
+  "ballData": "$kwwk$kwwwwkww$$wwww$$wwkwwwwk$kwwk$",
+  "tileData": [
+    "$wwww$wwkkwwwk$$kwwk$$kwwwkkww$wwww$",
+    "$wkwk$kwwwwwww$$wkkw$$wwwwwwwk$kwkw$",
+    "$kwkw$wwwwwkkw$$wwww$$wkkwwwww$wkwk$",
+    "$wwww$wwwwwwkk$$kkkk$$kkwwwwww$wwww$",
+    "$wkkw$wwkkwwww$$wwww$$wwwwkkww$wkkw$"
+  ],
+  "colorData": {
+    "w": "#FFF",
+    "k": "#000"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "levelName": "항구 헵토미노",
+  "makerName": "민애부터",
+  "levelSize": 6,
+  "ballData": "$$wwcc$$wwccww$$wwww$$wwmmwwkkmmwwkk",
+  "tileData": [
+    "$$ccww$$ccwwmm$$wwmm$$wwwwwwkkwwwwkk",
+    "$$mmww$$mmwwcc$$wwcc$$wwwwwwkkwwwwkk",
+    "$$wwmm$$wwmmww$$wwww$$wwccwwkkccwwkk"
+  ],
+  "colorData": {
+    "w": "#FFF",
+    "m": "#F0F",
+    "k": "#000",
+    "c": "#0FF"
+  }
+}
